@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="205.0dp"
+            android:id="@+id/QRCodeImageView"
+            android:layout_marginBottom="0.0dp" />
+        <TextView
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EOTAddress"
+            android:textIsSelectable="true" />
+        <TextView
+            android:text="Balance:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/BalanceLabel" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/BalanceText" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/space1" />
+        <Button
+            android:text="Send EOT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SendEOTButton" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/space4" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/space2" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/space3" />
+        <Button
+            android:text="Transaction History"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/HistoryButton" />
+        <Button
+            android:text="Refresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RefreshButton" />
+        <Button
+            android:text="Export Wallet Seed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ExportWalletButton" />
+    </LinearLayout>
+</ScrollView>

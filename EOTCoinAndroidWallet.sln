@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EOTCoinAndroidWallet", "EOTCoinAndroidWallet\EOTCoinAndroidWallet.csproj", "{D5FD5303-5317-416B-A4CF-8A1E7A89132C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98C37CD4-B7BF-4256-9A32-1B2FE00DEFAF}"
+	ProjectSection(SolutionItems) = preProject
+		EOTCoinAndroidWallet\NBitcoin.dll = EOTCoinAndroidWallet\NBitcoin.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5FD5303-5317-416B-A4CF-8A1E7A89132C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FD5303-5317-416B-A4CF-8A1E7A89132C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FD5303-5317-416B-A4CF-8A1E7A89132C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D5FD5303-5317-416B-A4CF-8A1E7A89132C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FD5303-5317-416B-A4CF-8A1E7A89132C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5FD5303-5317-416B-A4CF-8A1E7A89132C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BEB2721-6637-46E6-AAB2-949504A44B42}
+	EndGlobalSection
+EndGlobal
